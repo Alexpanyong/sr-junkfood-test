@@ -1,0 +1,54 @@
+.appWrap {
+    text-align: left;
+}
+
+.appWrap div {
+    box-sizing: border-box;
+}
+
+.searchBar {
+    position: relative;
+    width: 100%;
+    padding: 0 20px;
+    margin: 20px 0 50px 0;
+    z-index: 2;
+}
+
+.searchBar span {
+    display: inline-block;
+}
+
+.searchBar .inputBoxWrap {
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+}
+
+.searchBar .inputBox {
+    display: block;
+    margin: 0 auto;
+    padding: 10px; 
+    font-size: 18px;    
+    border: 1px solid #000000;
+}
+
+.searchBar .suggestBox {
+    position: absolute;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+
+.searchBar .suggestBox .suggestItem {
+    position: relative;
+    padding: 10px;
+}
+
+.searchBar .suggestBox .suggestItem:hover {
+    color: #ffffff;
+    background-color: #333333;
+}
+
+.searchBar .suggestBox#suggestBox.off {
+    display: none;
+}

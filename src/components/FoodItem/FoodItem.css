@@ -1,0 +1,42 @@
+.foodItem {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    vertical-align: top;
+    color: #ffffff;
+    background-color: #000000;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.foodItem:hover {
+    cursor: pointer;
+}
+
+.foodItem #imgUrl,
+.foodItem #name,
+.foodItem #calorie,
+.foodItem #sugar,
+.foodItem #desc {
+    display: block;
+    position: relative;
+    margin: 10px;
+}
+
+.foodItem #imgUrl {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #888888;
+}
+
+.foodItem #imgUrl img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.foodItem #name {
+    font-weight: bold;
+}
